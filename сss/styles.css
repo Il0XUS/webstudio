@@ -1,6 +1,11 @@
-button {
-    color: blue;
+:root {
+--main-color:blue;
+--secondary-color:black;
+--third-color:white;
 }
-a {
-    color: blue;
-}
+
+
+
+   
+    
+
