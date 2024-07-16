@@ -1,50 +1,110 @@
 :root {
---main-color:#2196F3;
---secondary-color:#2F303A;
---third-color:#212121; 
---fourth-color:#757575; 
+  --main-color: #2196f3;
+  --secondary-color: #2f303a;
+  --third-color: #212121;
+  --fourth-color: #757575;
+  --fifth-color:  #fff ;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
-:root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-  }
-  body {
-   --font-family: "Roboto";
- }
-h1,h2,h3,h4,h5,h6,p {
-    margin: 0;
+
+body {
+  --font-family: "Roboto";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 header {
-   padding-top: 31px;
+  padding-top: 31px;
 }
 main {
-    padding-bottom: 91px;
-  
+  padding-bottom: 91px;
 }
 footer {
-    padding-bottom: 62px;
-   
+  padding-bottom: 62px;
 }
-
 
 .container {
-    width:1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-   
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--main-color);
 }
 
-
-   
-    
-
+.studio {
+  color: #000;
+}
+.nav-link {
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.nav-link:hover {
+  color: var(--main-color);
+}
+.contacts {
+  letter-spacing: 0.02em;
+  color: var(--fourth-color);
+}
+.contacts:hover {
+  color: var(--main-color);
+}
+.section-title.absent {
+  display: none;
+}
+.section-heading {
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: var(--third-color);                            
+}
+.employeer-name {
+font-size: 16px;
+text-align: center;
+color:  var(--third-color);
+}
+.employee-profession {
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color:  var(--fourth-color);
+}
+.studio-footer {
+color: var(--fifth-color);
+}
+.address-road {
+font-weight: 400;
+line-height: 171%;
+color:var(--fifth-color);
+}
+.contact-footer {
+font-weight: 400;
+line-height: 171%;
+color:var(--fourth-color);
+}
+body {
+ font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+}
